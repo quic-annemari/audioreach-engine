@@ -26,7 +26,7 @@ if (NOT HEXAGON_TOOLS_ROOT AND CONFIG_HEXAGON_TOOLS_ROOT)
 	set(HEXAGON_TOOLS_ROOT ${CONFIG_HEXAGON_TOOLS_ROOT})
 endif()
 
-if (NOT V_ARCH MATCHES "^(v5|v55|v60|v61|v62|v65|v66)")
+if (NOT V_ARCH MATCHES "^(v5|v55|v60|v61|v62|v65|v66|v67|v68)")
 	message(FATAL_ERROR
 		" Please specify valid Hexagon processor version.\n")
 endif()

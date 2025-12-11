@@ -11,7 +11,6 @@
 #include "audio_basic_op.h"
 #include "audio_basic_op_ext.h"
 #if ((defined __hexagon__) || (defined __qdsp6__))
-#include "audio_iir_tdf2_asm.h"
 #include <hexagon_protos.h>
 #include <hexagon_types.h>
 #endif
