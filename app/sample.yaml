@@ -1,0 +1,7 @@
+sample:
+  description: Audio with are
+  name: are
+common:
+  tags: audio
+  modules:
+    - are

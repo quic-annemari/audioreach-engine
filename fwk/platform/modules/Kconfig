@@ -4,4 +4,8 @@ config ALSA_DEVICE_SINK
         tristate "Enable ALSA_DEVICE_SINK Library"
         default y
 
+config NXP_DEVICE_SINK
+        tristate "Enable NXP_DEVICE_SINK Library"
+        default y
+
 endmenu
